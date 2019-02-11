@@ -7,15 +7,15 @@
     <p-tabPanel header="Tab2">
       <div translate>Overview.Details.InfusionParameter.Height</div>
       <div class="ui-g">
-        <div class="ui-g-6">
+        <div class="ui-g-3">
           <div translate>Overview.Details.InfusionParameter.Weight</div>
         </div>
-        <div class="ui-g-6">
+        <div class="ui-g-9">
           <p-fieldset>
             <p-header>
-              <div>Header</div>
+              <div><fa-icon [icon]="iconSliders"></fa-icon>Header</div>
             </p-header>
-            <div class="ui-g-6">
+            <div class="ui-g-4">
               <fa-icon [icon]="iconMapMarker"></fa-icon>
               <fa-icon [icon]="iconSyringe"></fa-icon>
               <fa-icon [icon]="iconDevice"></fa-icon>
@@ -24,11 +24,21 @@
               <fa-icon [icon]="iconCog"></fa-icon>
               <fa-icon [icon]="iconSliders"></fa-icon>
             </div>
-            <div class="ui-g-3">
+            <div class="ui-g-2">
+              <div translate>Sex.{{ viewModel?.sex }}</div>
               <div translate>Overview.Details.InfusionParameter.Sex</div>
             </div>
-            <div class="ui-g-3">
+            <div class="ui-g-2">
+              <div>{{ viewModel?.age }}</div>
               <div translate>Overview.Details.InfusionParameter.Age</div>
+            </div>
+            <div class="ui-g-2">
+              <div>{{ viewModel?.height }}</div>
+              <div translate>Overview.Details.InfusionParameter.Height</div>
+            </div>
+            <div class="ui-g-2">
+              <div>{{ viewModel?.weight }}</div>
+              <div translate>Overview.Details.InfusionParameter.Weight</div>
             </div>
           </p-fieldset>
         </div>

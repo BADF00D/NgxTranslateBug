@@ -27,6 +27,7 @@ export class AppComponent {
   iconPatient = faUser;
   iconCog = faCog;
   iconSliders = faSlidersH;
+  viewModel: ViewModel;
 
   constructor(translate: TranslateService) {
     translate.setDefaultLang('en');
@@ -35,8 +36,21 @@ export class AppComponent {
     const languages = translate.getLangs();
     translate.use(browserLanguage);
     console.log(`Switched language to browser language: '${browserLanguage}'`);
+    this.viewModel = new ViewModel(Sex.Female, 10, 100, 25);
   }
   private openDialog() {
     this.showDialog = true;
   }
+}
+class ViewModel {
+  constructor(
+    public sex: Sex,
+    public age: number,
+    public height: number,
+    public weight: number
+  ) {}
+}
+enum Sex {
+  Female = 'Female',
+  Male = 'Male'
 }
