@@ -1,0 +1,171 @@
+{
+  "WardSelector":{
+     "Ward": "Service"
+  },
+  "ConnectionStatus":{
+     "ConnectionLost": "Connexion perdue au gestionnaire de pompe",
+     "TryReconnect": "La connexion va être retentée",
+     "ReloadPage": "Veuillez recharger la page"
+  },
+  "Overview":{
+     "DockingStation":{
+        "ID": "ID",
+        "Stack": "Empilement",
+        "Pump":{
+           "ID": "ID",
+           "RemainingTime": "Temps restant"
+        }
+     },
+     "Details":{
+        "Header": "Détail de la perfusion avec médicament {{drugName}}",
+        "PumpNotConnected": "La pompe n'est pas connectée",
+        "Overview":{
+           "Header": "Vue d'ensemble"
+        },
+        "Infusion":{
+           "Header": "Perfsion",
+           "DrugName": "Nom du médicament",
+           "Mode": "Mode",
+           "RunStatus": "Statut de fonctionnement",
+           "VolumeRate": "Débit volumétrique",
+           "IngredientRate": "Taux de principe actif",
+           "TotalVolumeInfused": "Total du volume perfusé",
+           "TargetVolume": "Volume cible",
+           "RemainingVolume": "Volume restant",
+           "TotalIngredientInfused": "Principe total perfusé"
+        },
+        "Status":{
+           "Header": "Statut de fonctionnement"
+        },
+        "Location":{
+           "Header": "Location",
+           "Bed": "Lit",
+           "Room": "Chambre",
+           "Ward": "Service"
+        },
+        "Device":{
+           "Header": "Appareil",
+           "DockingStationId": "ID de la station de charge",
+           "Stack": "Empilement",
+           "Pump": "ID de la pompe",
+           "AlarmType": "Alarme"
+        },
+        "Timings":{
+           "Header": "Temps",
+           "Start": "Démarrer",
+           "EstimatedRemainingTime": "Temps restant estimé",
+           "Runtime": "Durée de fonctionnement"
+        },
+        "Patient":{
+           "Header": "Patient",
+           "Name": "Nom"
+        },
+        "InfusionParameter":{
+           "Header": "Paramètre de la perfusion",
+           "Age": "Age",
+           "Sex": "Sexe",
+           "Weight": "Poids",
+           "Height": "Taille"
+        },
+        "InfusionEvents":{
+           "Header": "Evénements de la perfusion",
+           "AvailablilityOfCopusIsLimited": "La disponibilité de CoPuS est limitée. Veuillez contacter votre administrateur.",
+           "Date": "Date",
+           "Time": "Heure",
+           "Event": "Evénement",
+           "Amount": "Montant",
+           "AlarmType": "Type",
+           "AlarmCategory": "Catégorie"
+        }
+     },
+     "Infusions":{
+        "Header": "Fin de la perfusion dans 30 min",
+        "Room": "Chambre",
+        "Bed": "Lit",
+        "ShortId": "ID",
+        "DrugName": "Médicament",
+        "EstimatedRemainingTime": "Temps restant"
+     }
+  },
+  "OverView":{
+     "Details":{
+        "Details":{
+           "Header": "Détails"
+        }
+     }
+  },
+  "PumpAlarmStatus":{
+     "langKeyAir": "Alarme d'air",
+     "langKeySyringeEmpty": "Alarme Seringue vide",
+     "langKeyBagEmpty": "Alarme poche vide",
+     "langKeyOcclusion": "Alarme d'occlusion",
+     "langKeyVTBIreached": "Volume cible atteint",
+     "langKeyDoorOpen": "Porte ouverte",
+     "langKeyInfusionStoppedKVO": "Perfusion arrêtée avec MVO",
+     "langKeyInfusionStopped": "Perfusion arrêtée",
+     "langKeyGeneralAlert": "Alarme générale",
+     "langKeySyringeNearEmpty": "Seringue bientôt vide",
+     "langKeyBatteryWarning": "Batterie",
+     "langKeyWaitingForInput": "En attente d'instruction",
+     "langKeyPeep": "Alarme accoustique",
+     "langKeyNormal": "",
+     "langKeyUnknown": "Alarme inconnue"
+  },
+  "HistoryEventType":{
+     "rateStarted": "Débit démarré",
+     "rateStopped": "Débit arrêté",
+     "bolusStarted": "Bolus démarré",
+     "bolusStopped": "Bolus arrêté",
+     "pause": "Pause",
+     "tciTargetConcentrationChanged": "Modification de la concentration cible TCI",
+     "alarm": "Alarme"
+  },
+  "Status":{
+     "error": "Erreur",
+     "kvo": "MVO",
+     "notConnected": "Pas connecté",
+     "running": "En marche",
+     "standby": "Pause",
+     "stopped": "Arrêté",
+     "unknown": "Inconnu"
+  },
+  "Sex":{
+     "Female": "Féminin",
+     "Male": "Masculin",
+     "Inter": "Inter",
+     "Unknown": "-"
+  },
+  "RunState":{
+     "Unknown": "Inconnu",
+     "Stopped": "Arrêté",
+     "Timeout": "Temps dépassé",
+     "Started": "Démarré à",
+     "DataLoss": "Données perdues",
+     "Paused": "Pause"
+  },
+  "InfusionMode":{
+     "Unknown": "Inconnu",
+     "Standard": "Standard",
+     "DCA": "DCA",
+     "PCA": "PCA",
+     "TCI": "TCI",
+     "Special": "Spécial"
+  },
+  "AlarmType":{
+     "Unknown": "Alarme inconnue",
+     "Air": "Alarme d'air",
+     "Pressure": "Alarme de pression",
+     "SyringeEmpty": "Seringue vide",
+     "BagEmpty": "Alarme poche vide",
+     "TargetVolumeReached": "Volume cible atteint",
+     "InfusionStoppedWithKvo": "Perfusion arrêtée avec MVO",
+     "InfusionStopped": "Perfusion arrêtée",
+     "DoorOpen": "Porte ouverte",
+     "General": "Alarme générale",
+     "SyringeNearEmpty": "Seringue bientôt vide",
+     "Battery": "Batterie",
+     "WaitingForInput": "En attente d'instruction",
+     "Acoustic": "Alarme accoustique",
+     "Normal": "Normal"
+  }
+}

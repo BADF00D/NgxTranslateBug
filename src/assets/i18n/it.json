@@ -1,0 +1,171 @@
+{
+  "WardSelector":{
+     "Ward": "Reparto"
+  },
+  "ConnectionStatus":{
+     "ConnectionLost": "Connessione a PUM persa",
+     "TryReconnect": "Prova riconnessione",
+     "ReloadPage": "Ricaricare pagina"
+  },
+  "Overview":{
+     "DockingStation":{
+        "ID": "ID",
+        "Stack": "Colonna",
+        "Pump":{
+           "ID": "ID",
+           "RemainingTime": "Tempo Rimanente"
+        }
+     },
+     "Details":{
+        "Header": "Dettagli dell'infusione del farmaco {{drugName}}",
+        "PumpNotConnected": "La pompa non è collegata",
+        "Overview":{
+           "Header": "Sondaggio"
+        },
+        "Infusion":{
+           "Header": "Infusione",
+           "DrugName": "Nome del farmaco",
+           "Mode": "Modalità",
+           "RunStatus": "Stato corrente",
+           "VolumeRate": "Volume infuso",
+           "IngredientRate": "Flusso Principio attivo",
+           "TotalVolumeInfused": "Totale Volume infuso",
+           "TargetVolume": "Volume Target",
+           "RemainingVolume": "Volume rimanente",
+           "TotalIngredientInfused": "Totale principio attivo infuso"
+        },
+        "Status":{
+           "Header": "Stato"
+        },
+        "Location":{
+           "Header": "Locazione",
+           "Bed": "Letto",
+           "Room": "Stanza",
+           "Ward": "Reparto"
+        },
+        "Device":{
+           "Header": "Dispositivo",
+           "DockingStationId": "ID Docking Station",
+           "Stack": "Colonna",
+           "Pump": "ID Pompa",
+           "AlarmType": "Allarme"
+        },
+        "Timings":{
+           "Header": "Timing",
+           "Start": "Avvio",
+           "EstimatedRemainingTime": "Stima tempo rimanente",
+           "Runtime": "Tempo corrente"
+        },
+        "Patient":{
+           "Header": "Paziente",
+           "Name": "Nome"
+        },
+        "InfusionParameter":{
+           "Header": "Parametri dell'infusione",
+           "Age": "Età",
+           "Sex": "Sesso",
+           "Weight": "Peso",
+           "Height": "Altezza"
+        },
+        "InfusionEvents":{
+           "Header": "Eventi infusione",
+           "AvailablilityOfCopusIsLimited": "La disponibilità di CoPuS è limitata. Si prega di contattare l'amministratore.",
+           "Date": "Data",
+           "Time": "Ora",
+           "Event": "Evento",
+           "Amount": "Quantità",
+           "AlarmType": "Tipo",
+           "AlarmCategory": "Categoria"
+        }
+     },
+     "Infusions":{
+        "Header": "Termine infusione nei prossimi 30 min",
+        "Room": "Stanza",
+        "Bed": "Letto",
+        "ShortId": "ID",
+        "DrugName": "Nome Farmaco",
+        "EstimatedRemainingTime": "Tempo rimanente"
+     }
+  },
+  "OverView":{
+     "Details":{
+        "Details":{
+           "Header": "Dettagli"
+        }
+     }
+  },
+  "PumpAlarmStatus":{
+     "langKeyAir": "Allarme Aria",
+     "langKeySyringeEmpty": "Allarme Siringa vuota",
+     "langKeyBagEmpty": "Allarme sacchetto vuoto",
+     "langKeyOcclusion": "Allarme Occlusione",
+     "langKeyVTBIreached": "Infusione terminata",
+     "langKeyDoorOpen": "Sportello aperto",
+     "langKeyInfusionStoppedKVO": "Stop infusione (KVO)",
+     "langKeyInfusionStopped": "Stop infusione",
+     "langKeyGeneralAlert": "Allarme Generico",
+     "langKeySyringeNearEmpty": "Infusione prossima alla fine",
+     "langKeyBatteryWarning": "Allarme Batteria",
+     "langKeyWaitingForInput": "Attesa informazioni",
+     "langKeyPeep": "Allarme sonoro",
+     "langKeyNormal": "",
+     "langKeyUnknown": "Allarme Sconosciuto"
+  },
+  "HistoryEventType":{
+     "rateStarted": "Infusione avviata",
+     "rateStopped": "Infusione interrotta",
+     "bolusStarted": "Bolo avviato",
+     "bolusStopped": "Bolo interrotto",
+     "pause": "Pausa",
+     "tciTargetConcentrationChanged": "Concentrazione target TCI modificata",
+     "alarm": "Allarme"
+  },
+  "Status":{
+     "error": "Errore",
+     "kvo": "KVO",
+     "notConnected": "Non collegato",
+     "running": "Infusione in corso",
+     "standby": "Standby",
+     "stopped": "Arrestato",
+     "unknown": "Sconosciuto"
+  },
+  "Sex":{
+     "Female": "Femmina",
+     "Male": "Maschio",
+     "Inter": "Inter",
+     "Unknown": "-"
+  },
+  "RunState":{
+     "Unknown": "Sconosciuto",
+     "Stopped": "Arrestato",
+     "Timeout": "Timeout",
+     "Started": "Avvio alle",
+     "DataLoss": "Dati persi",
+     "Paused": "Pausa"
+  },
+  "InfusionMode":{
+     "Unknown": "Sconosciuto",
+     "Standard": "Standard",
+     "DCA": "DCA",
+     "PCA": "PCA",
+     "TCI": "TCI",
+     "Special": "Speciale"
+  },
+  "AlarmType":{
+     "Unknown": "Allarme sconosciuto",
+     "Air": "Allarme aria",
+     "Pressure": "Allarme pressione",
+     "SyringeEmpty": "Siringa vuota",
+     "BagEmpty": "Allarme sacchetto vuoto",
+     "TargetVolumeReached": "Volume target raggiunto",
+     "InfusionStoppedWithKvo": "Stop infusione con KVO",
+     "InfusionStopped": "Stop infusione",
+     "DoorOpen": "Sportello aperto",
+     "General": "Allarme generale",
+     "SyringeNearEmpty": "Siringa prossima alla fine",
+     "Battery": "Batteria",
+     "WaitingForInput": "Attesa Inserimento",
+     "Acoustic": "Allarme acustico",
+     "Normal": "Normale"
+  }
+}

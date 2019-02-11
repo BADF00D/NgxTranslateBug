@@ -1,0 +1,118 @@
+key;de;en;it;fr
+WardSelector.Ward;Station;Ward;Reparto;Service
+ConnectionStatus.ConnectionLost;Verbindung zum Pumpenmanagement verloren;Connection to PuM lost;Connessione a PUM persa;Connexion perdue au gestionnaire de pompe
+ConnectionStatus.TryReconnect;Verbindung wird neu aufgebaut;Attempting to reconnect;Prova riconnessione;La connexion va être retentée
+ConnectionStatus.ReloadPage;Bitte Seite neu laden;Please reload page;Ricaricare pagina;Veuillez recharger la page
+Overview.DockingStation.ID;ID;ID;ID;ID
+Overview.DockingStation.Stack;Turm;Stack;Colonna;Empilement
+Overview.DockingStation.Pump.ID;ID;ID;ID;ID
+Overview.DockingStation.Pump.RemainingTime;Restlaufzeit;Remaining Time;Tempo Rimanente;Temps restant
+Overview.Details.Header;Infusionsdetails mit Medikament {{drugName}};Details for Infusion with drug {{drugName}};Dettagli dell'infusione del farmaco {{drugName}};Détail de la perfusion avec médicament {{drugName}}
+Overview.Details.PumpNotConnected;Pumpe ist nicht verbunden;Pump isn't connected;La pompa non è collegata;La pompe n'est pas connectée
+Overview.Details.Overview.Header;Übersicht;Overview;Sondaggio;Vue d'ensemble
+OverView.Details.Details.Header;Details;Details;Dettagli;Détails
+Overview.Details.Infusion.Header;Infusion;Infusion;Infusione;Perfsion
+Overview.Details.Infusion.DrugName;Names des Medikaments;Name of Drug;Nome del farmaco;Nom du médicament
+Overview.Details.Infusion.Mode;Modus;Mode;Modalità;Mode
+Overview.Details.Infusion.RunStatus;Runstatus;Run Status;Stato corrente;Statut de fonctionnement
+Overview.Details.Infusion.VolumeRate;Volumenrate;Volumetric Flow Rate;Volume infuso;Débit volumétrique
+Overview.Details.Infusion.IngredientRate;Wirkstoffrate;Active Ingredient Rate;Flusso Principio attivo;Taux de principe actif
+Overview.Details.Infusion.TotalVolumeInfused;inf. Gesamtvolumen;Total Volume Infused;Totale Volume infuso;Total du volume perfusé
+Overview.Details.Infusion.TargetVolume;Zielvolumen;Target Volume;Volume Target;Volume cible
+Overview.Details.Infusion.RemainingVolume;Restvolumen;Remaining Volume;Volume rimanente;Volume restant
+Overview.Details.Infusion.TotalIngredientInfused;inf. Gesamtwirkstoff;Total Ingredient Infused;Totale principio attivo infuso;Principe total perfusé
+Overview.Details.Status.Header;Status;Status;Stato;Statut de fonctionnement
+Overview.Details.Location.Header;Ort;Location;Locazione;Location
+Overview.Details.Location.Bed;Bett;Bed;Letto;Lit
+Overview.Details.Location.Room;Raum;Room;Stanza;Chambre
+Overview.Details.Location.Ward;Station;Ward;Reparto;Service
+Overview.Details.Device.Header;Gerät;Device;Dispositivo;Appareil
+Overview.Details.Device.DockingStationId;Id der Dockingstation;Id of Dockingstation;ID Docking Station;ID de la station de charge
+Overview.Details.Device.Stack;Stack;Stack;Colonna;Empilement
+Overview.Details.Device.Pump;Id der Pumpe;Id of Pump;ID Pompa;ID de la pompe
+Overview.Details.Device.AlarmType;Alarm;Alarm;Allarme;Alarme
+Overview.Details.Timings.Header;Zeiten;Timings;Timing;Temps
+Overview.Details.Timings.Start;Start;Start;Avvio;Démarrer
+Overview.Details.Timings.EstimatedRemainingTime;gesch. Restlaufzeit;Est. Remaining Time;Stima tempo rimanente;Temps restant estimé
+Overview.Details.Timings.Runtime;Laufzeit;Runtime;Tempo corrente;Durée de fonctionnement
+Overview.Details.Patient.Header;Patient;Patient;Paziente;Patient
+Overview.Details.Patient.Name;Name;Name;Nome;Nom
+Overview.Details.InfusionParameter.Header;Infusionsparameter;Infusion Parameter;Parametri dell'infusione;Paramètre de la perfusion
+Overview.Details.InfusionParameter.Age;Alter;Age;Età;Age
+Overview.Details.InfusionParameter.Sex;Geschlecht;Sex;Sesso;Sexe
+Overview.Details.InfusionParameter.Weight;Gewicht;Weight;Peso;Poids
+Overview.Details.InfusionParameter.Height;Größe;Height;Altezza;Taille
+Overview.Details.InfusionEvents.Header;Ereignisse der Infusion;Events of Infusion;Eventi infusione;Evénements de la perfusion
+Overview.Details.InfusionEvents.AvailablilityOfCopusIsLimited;CoPuS ist nur eingeschränkt verfügbar. Bitte wenden Sie sich an die Administration.;The availability of CoPuS is limited. Please contact the system administrator.;La disponibilità di CoPuS è limitata. Si prega di contattare l'amministratore.;La disponibilité de CoPuS est limitée. Veuillez contacter votre administrateur.
+Overview.Details.InfusionEvents.Date;Datum;Date;Data;Date
+Overview.Details.InfusionEvents.Time;Uhrzeit;Time;Ora;Heure
+Overview.Details.InfusionEvents.Event;Ereignis;Event;Evento;Evénement
+Overview.Details.InfusionEvents.Amount;Menge;Amount;Quantità;Montant
+Overview.Details.InfusionEvents.AlarmType;Typ;Type;Tipo;Type
+Overview.Details.InfusionEvents.AlarmCategory;Kategory;Category;Categoria;Catégorie
+Overview.Infusions.Header;Infusionen enden in den nächsten 30min;Infusions ending within the next 30min;Termine infusione nei prossimi 30 min;Fin de la perfusion dans 30 min
+Overview.Infusions.Room;Raum;Room;Stanza;Chambre
+Overview.Infusions.Bed;Bett;Bed;Letto;Lit
+Overview.Infusions.ShortId;ID;ID;ID;ID
+Overview.Infusions.DrugName;Medikament;Drug Name;Nome Farmaco;Médicament
+Overview.Infusions.EstimatedRemainingTime;Restlaufzeit;Remaining Time;Tempo rimanente;Temps restant
+PumpAlarmStatus.langKeyAir;Luftalarm;Air-In-Line Alarm;Allarme Aria;Alarme d'air
+PumpAlarmStatus.langKeySyringeEmpty;Alarm Spritze leer;Syringe empty Alarm;Allarme Siringa vuota;Alarme Seringue vide
+PumpAlarmStatus.langKeyBagEmpty;Beutel leer Alarm;bag empty alarm;Allarme sacchetto vuoto;Alarme poche vide
+PumpAlarmStatus.langKeyOcclusion;Okklusionsalarm;Occlusion Alarm;Allarme Occlusione;Alarme d'occlusion
+PumpAlarmStatus.langKeyVTBIreached;Zielvolumen erreicht;Target Volume Reached;Infusione terminata;Volume cible atteint
+PumpAlarmStatus.langKeyDoorOpen;Tür offen;Door open;Sportello aperto;Porte ouverte
+PumpAlarmStatus.langKeyInfusionStoppedKVO;Infusion gestoppt (KVO);Infusion Stopped with KVO;Stop infusione (KVO);Perfusion arrêtée avec MVO
+PumpAlarmStatus.langKeyInfusionStopped;Infusion gestoppt;Infusion Stopped;Stop infusione;Perfusion arrêtée
+PumpAlarmStatus.langKeyGeneralAlert;Genereller Alarm;General Alarm;Allarme Generico;Alarme générale
+PumpAlarmStatus.langKeySyringeNearEmpty;Warnung Spritze fast leer;Syringe near empty;Infusione prossima alla fine;Seringue bientôt vide
+PumpAlarmStatus.langKeyBatteryWarning;Batteriewarnung;Battery;Allarme Batteria;Batterie
+PumpAlarmStatus.langKeyWaitingForInput;Warte auf Eingabe;Waiting for Input;Attesa informazioni;En attente d'instruction
+PumpAlarmStatus.langKeyPeep;Akustischer Alarm;Acoustic Alarm;Allarme sonoro;Alarme accoustique
+PumpAlarmStatus.langKeyNormal;;;;
+PumpAlarmStatus.langKeyUnknown;Unbekannter Alarm;Unknown Alarm;Allarme Sconosciuto;Alarme inconnue
+HistoryEventType.rateStarted;Rate gestartet;Rate Started;Infusione avviata;Débit démarré
+HistoryEventType.rateStopped;Rate gestoppt;Rate Stopped;Infusione interrotta;Débit arrêté
+HistoryEventType.bolusStarted;Bolus gestartet;Bolus Started;Bolo avviato;Bolus démarré
+HistoryEventType.bolusStopped;Bolus gestoppt;Bolus Stopped;Bolo interrotto;Bolus arrêté
+HistoryEventType.pause;Pause;Pause;Pausa;Pause
+HistoryEventType.tciTargetConcentrationChanged;TCI Zielkonzentration geändert;TCI Target Concentration Changed;Concentrazione target TCI modificata;Modification de la concentration cible TCI
+HistoryEventType.alarm;Alarm;Alarm;Allarme;Alarme
+Status.error;Fehler;Error;Errore;Erreur
+Status.kvo;KVO;KVO;KVO;MVO
+Status.notConnected;Nicht verbunden;Not Connected;Non collegato;Pas connecté
+Status.running;Infundiert;Running;Infusione in corso;En marche
+Status.standby;Standby;Standby;Standby;Pause
+Status.stopped;Gestoppt;Stopped;Arrestato;Arrêté
+Status.unknown;Unbekannt;Unknown;Sconosciuto;Inconnu
+Sex.Female;weiblich;Female;Femmina;Féminin
+Sex.Male;männlich;Male;Maschio;Masculin
+Sex.Inter;inter;Inter;Inter;Inter
+Sex.Unknown;-;-;-;-
+RunState.Unknown;Unbekannt;Unknown;Sconosciuto;Inconnu
+RunState.Stopped;Gestoppt;Stopped;Arrestato;Arrêté
+RunState.Timeout;Timeout;Timeout;Timeout;Temps dépassé
+RunState.Started;Gestartet;Started at;Avvio alle;Démarré à
+RunState.DataLoss;Datenverlust;Data Lost;Dati persi;Données perdues
+RunState.Paused;Pausiert;Pause;Pausa;Pause
+InfusionMode.Unknown;Unbekannt;Unknown;Sconosciuto;Inconnu
+InfusionMode.Standard;Standard;Standard;Standard;Standard
+InfusionMode.DCA;DCA;DCA;DCA;DCA
+InfusionMode.PCA;PCA;PCA;PCA;PCA
+InfusionMode.TCI;TCI;TCI;TCI;TCI
+InfusionMode.Special;Spezial;Special;Speciale;Spécial
+AlarmType.Unknown;Unbekannter Alarm;Unknown alarm;Allarme sconosciuto;Alarme inconnue
+AlarmType.Air;Luftalarm;Air-In-Line Alarm;Allarme aria;Alarme d'air
+AlarmType.Pressure;Druckalarm;Pressure Alarm;Allarme pressione;Alarme de pression
+AlarmType.SyringeEmpty;Spritze leer;Syringe empty;Siringa vuota;Seringue vide
+AlarmType.BagEmpty;Beutel leer Alarm;bag empty alarm;Allarme sacchetto vuoto;Alarme poche vide
+AlarmType.TargetVolumeReached;Zielvolumen erreicht;Target Volume Reached;Volume target raggiunto;Volume cible atteint
+AlarmType.InfusionStoppedWithKvo;Infusion gestoppt mit KVO;Infusion Stopped with KVO;Stop infusione con KVO;Perfusion arrêtée avec MVO
+AlarmType.InfusionStopped;Infusion gestoppt;Infusion Stopped;Stop infusione;Perfusion arrêtée
+AlarmType.DoorOpen;Tür offen;Door Open;Sportello aperto;Porte ouverte
+AlarmType.General;Generalalarm;General Alarm;Allarme generale;Alarme générale
+AlarmType.SyringeNearEmpty;Spritze fast leer;Syringe near empty;Siringa prossima alla fine;Seringue bientôt vide
+AlarmType.Battery;Batterie;Battery;Batteria;Batterie
+AlarmType.WaitingForInput;Warte auf Eingabe;Waiting for Input;Attesa Inserimento;En attente d'instruction
+AlarmType.Acoustic;Akustischer Alarm;Acoustic Alarm;Allarme acustico;Alarme accoustique
+AlarmType.Normal;Normal;Normal;Normale;Normal
